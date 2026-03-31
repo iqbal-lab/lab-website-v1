@@ -24,12 +24,12 @@ const members = [
 		name: "Alexandria Harrott",
 		photo: "/assets/alex.jpg",
 		description:
-			"Alex has previously worked on nanopore sequencing for P. falciparum, but now for her PhD works on plasmid evolution."
+			"Alex worked on nanopore sequencing for P. falciparum prior to joining the group. The first year of her PhD she worked on recombination in S. pneumoniae, and now has moved over to studying plasmid evolution."
 	},
 	{
 		name: "Loic Marmey",
 		photo: "/assets/loic.jpg",
-		description: "Loic works on new methods of genome assembly."
+		description: "Loic works on methods you would not expect for genome assembly; watch this space for some surprises."
 	}
 ];
 </script>
