@@ -37,21 +37,39 @@ import { meta_description, meta_image, meta_title, meta_url } from "$lib/config"
 <SectionHeader title="What's New" />
 
 <Row cols={{ xl: 3, lg: 3, md: 2, sm: 1, xs: 1 }}>
-	<!-- Photo by <a href="https://unsplash.com/@xteemu">Teemu Paananen</a> on <a href="https://unsplash.com/photos/pic-bzdhc5b3Bxs">Unsplash</a> -->
 	<ProjectCard
-		name="📝 AllTheBacteria data now available on AWS"
-		date="May 2025"
-		url="/articles/install-xyz"
-		img="/assets/talk.jpg"
-		description="Now you can align your favourite gene to 2 million bacteria on AWS..."
+		name="Our paper on Phylogenetic Compression is published!"
+		url="https://www.nature.com/articles/s41592-025-02625-2"
+		img="/assets/miniphy.png"
+		description="Genomes are not random strings; using evolutionary information to improve compression."
 	/>
-
-	<!-- Photo by <a href="https://unsplash.com/@chuttersnap">CHUTTERSNAP</a> on <a href="https://unsplash.com/photos/pic-UmncJq4KPcA">Unsplash</a> -->
 	<ProjectCard
-		name="🗞️ Our paper on Phylogenetic Compression is published"
-		date="April 2025"
-		url="https://google.com"
-		img="/assets/plants.jpg"
-		description="Genomes are not random strings; using evolution to improve data compression."
+		name="Our paper on plasmid evolution over the antibiotic epoch is published!"
+		url="https://www.science.org/doi/10.1126/science.adr1522"
+		img="/assets/murrays.png"
+		description="Led by postdoc in the lab Adrian Cazares, collaborative work with Nick Thomson at the Sanger Institute."
+	/>
+	<ProjectCard
+		name="Our paper on alignment to millions of prokaryotic genomes is published!"
+		url="https://www.nature.com/articles/s41587-025-02812-8"
+		img="/assets/lexicmap.png"
+		description="New algorithm allows alignment of a gene to 2 million genomes in AllTheBacteria in seconds. Amazing work led by Wei Shen."
+	/>
+	<ProjectCard
+		name="The Genetics Society announces that Zam will be awarded the 2026 Mary Lyon Medal"
+		url="https://genetics.org.uk/medals-and-prizes/genetics-society-medals-and-lectures/mary-lyon-medal/mary-lyon-medal-2026-prof-zamin-iqbal/"
+		description="While this is very welcome, Zam wants to emphasise that he has been lucky to have supportive mentors, and incredibly talented PhD students and postdocs, without whom this would not have happened."
+	/>
+	<ProjectCard
+		name="Over 17 million new protein structure predictions from our AllTheBacteria consortium shared publicly via the AlphaFold database"
+		url="https://www.ebi.ac.uk/about/news/updates-from-data-resources/alphafold-database-community-datasets/"
+		img="/assets/alphafold.png"
+		description=""
+	/>
+	<ProjectCard
+		name="Our paper on fixing systematic errors in the SARS-CoV-2 phylogeny is published!"
+		url="https://www.nature.com/articles/s41592-025-02947-1"
+		img="/assets/viridian.png"
+		description="Martin Hunt developed a rigorous tiled-amplicon assembler, Viridian, reassembled all open SARS-CoV-2 data and with Russ Corbett-Detig's team constructed a new, better phylogeny. Great collaboration releasing many genomes from the Global South."
 	/>
 </Row>
