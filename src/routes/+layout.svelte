@@ -36,9 +36,9 @@ $effect(() => {
 			<div class="nav">
 				{#each NAVBAR_CATEGORIES as category, i}
 					{@const label = category[0].toUpperCase() + category.slice(1)}
-					{@const url = i === 0 ? "/" : `/${category}`}
+					{@const url = `/${category}`}
 					{@const path = page.url.pathname}
-					{@const disabled = i === 0 ? path === "/" : path === url || path === `${url}/`}
+					{@const disabled = path === url || path === `${url}/`}
 					<div class="nav-item">
 						<NavItem><NavLink href={url} {disabled}>{label}</NavLink></NavItem>
 					</div>

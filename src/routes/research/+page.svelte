@@ -7,7 +7,7 @@ import { ListGroup } from "@sveltestrap/sveltestrap";
 <SectionHeader title="Algorithm Development" />
 
 <ListGroup flush>
-	<Experience start="2012" company="Pangenomes" url="">
+	<Experience company="Pangenomes" url="">
 		<ul class="timeline">
 			<li>
 				<div class="fw-bold">
@@ -43,7 +43,7 @@ import { ListGroup } from "@sveltestrap/sveltestrap";
 		</ul>
 	</Experience>
 
-	<Experience start="2021" end="" company="Plasmid evolution" url="">
+	<Experience company="Plasmid evolution" url="">
 		<ul class="timeline">
 			<li>
 				<div class="fw-bold">Rearrangement distances</div>
@@ -57,7 +57,7 @@ import { ListGroup } from "@sveltestrap/sveltestrap";
 		</ul>
 	</Experience>
 
-	<Experience start="2021" end="" company="Indexing and Alignment" url="">
+	<Experience company="Indexing and Alignment" url="">
 		<ul class="timeline">
 			<li>
 				<div class="fw-bold">K-mer indexing</div>
@@ -71,7 +71,7 @@ import { ListGroup } from "@sveltestrap/sveltestrap";
 		</ul>
 	</Experience>
 
-<Experience start="2012" end="" company="Variant Calling" url="">
+<Experience company="Variant Calling" url="">
 		<ul class="timeline">
 			<li>
 				<div class="fw-bold">Coloured de Bruijn graphs</div>
@@ -86,16 +86,4 @@ import { ListGroup } from "@sveltestrap/sveltestrap";
 	</Experience>
 
 
-</ListGroup>
-
-<SectionHeader title="Education" />
-
-<ListGroup flush>
-	<Experience start="August 2012" end="May 2017" company="Graduate School of Biology" url="https://google.com">
-		<div class="fw-bold">PhD in Biology</div>
-		Studied the effect of XYZ...
-	</Experience>
-	<Experience start="September 2008" end="August 2012" company="School of Biological Biology" url="https://google.com">
-		<div class="fw-bold">B.Sc. in Biology</div>
-	</Experience>
 </ListGroup>

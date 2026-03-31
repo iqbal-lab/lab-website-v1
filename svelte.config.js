@@ -3,7 +3,10 @@ import { mdsvex } from "mdsvex";
 
 const config = {
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		alias: {
+			$components: "./src/components"
+		}
 	},
 	extensions: [".svelte", ".md"],
 	preprocess: [
