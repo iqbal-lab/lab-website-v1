@@ -23,18 +23,6 @@ import { ListGroup } from "@sveltestrap/sveltestrap";
 			</li>
 			<li>
 				<div class="fw-bold">
-					Resistance prediction using coloured de Bruijn graphs <span class="fw-normal text-muted small">(2015-)</span>
-				</div>
-				Software called Mykrobe, developed by Martin Hunt and Phelim Bradley, works for Illumina and Nanopore data, for Mycobacterium tuberculosis, Staphylococcus aureus, Shigella sonnei, Salmonella typhi and Salmonella enterica serotype Paratyphi B. 
-			</li>
-			<li>
-				<div class="fw-bold">
-					Improved resistance prediction for TB<span class="fw-normal text-muted small">(2021)</span>
-				</div>
-				DrPRG was designed as an improved version of Mykrobe by Michael Hall, based on Pandora's minimizer DAGs instead of Mykrobe's coloured de Bruijn graph. DrPRG only supports Mtb for the moment though.
-			</li>
-			<li>
-				<div class="fw-bold">
 					Modelling a eukaryote pangenome as an ordered array of DAGs, encoded in a variant BWT<span class="fw-normal text-muted small">(2021)</span>
 				</div>
 				In our tool called gramtools, developed by Brice Letcher and Sorina Maciuca, we generalise the standard BWT to encode a genome plus variants, allowing mapping of reads to the pangenome. For the experts, a lot of interesting ideas in how to record support for individual SNPs buried in complex regions, and a new hierarchical JSON VCF format. 
@@ -82,6 +70,52 @@ import { ListGroup } from "@sveltestrap/sveltestrap";
 				Working with Martin Hunt, developed minos, a tool which combines VCFs from different variant callers, to make a better VCF. Minos makes a gramtools graph of the variants in both VCFs and remaps reads to the graph to adjudicate. The clockwork variant caller combines cortex and samtools using minos.
 			</li>
 
+		</ul>
+	</Experience>
+
+
+</ListGroup>
+
+
+
+<SectionHeader title="Evolution of bacteria and AMR" />
+
+<ListGroup flush>
+	<Experience company="Antimicrobial resistance" url="">
+		<ul class="timeline">
+			<li>
+				<div class="fw-bold">
+					Resistance prediction using coloured de Bruijn graphs <span class="fw-normal text-muted small">(2015-)</span>
+				</div>
+				Software called Mykrobe, developed by Martin Hunt and Phelim Bradley, works for Illumina and Nanopore data, for Mycobacterium tuberculosis, Staphylococcus aureus, Shigella sonnei, Salmonella typhi and Salmonella enterica serotype Paratyphi B. 
+			</li>
+			<li>
+				<div class="fw-bold">
+					Improved resistance prediction for TB<span class="fw-normal text-muted small">(2021)</span>
+				</div>
+				DrPRG was designed as an improved version of Mykrobe by Michael Hall, based on Pandora's minimizer DAGs instead of Mykrobe's coloured de Bruijn graph. DrPRG only supports Mtb for the moment though.
+			</li>
+			<li>
+				<div class="fw-bold">
+					Genetic basis for resistance in TB <span class="fw-normal text-muted small">(2013 &mdash;)</span>
+				</div>
+				We spent 5 years, as part of the CRyPTIC project, collecting, sequencing and phenotyping over 12,000 clinical isolates of M. tuberculosis from around the world and publishing them as an open dataset. We focussed on how to best identify and jointly genotype genetic variants in the cohort, and enable our collaborators doing GWAS and ML on the data. This fed directly into the first version of the WHO Catalogue of TB resistance mutations.
+			</li>
+			<li>
+				<div class="fw-bold">
+					Single and multicopy AMR gene detection from long reads<span class="fw-normal text-muted small">(2021-)</span>
+				</div>
+				Using gene de Bruijn graphs with a tool called Amira, developed by Dan Anderson
+			</li>
+		</ul>
+	</Experience>
+
+	<Experience company="Plasmid evolution" url="">
+		<ul class="timeline">
+			<li>
+				<div class="fw-bold">The Murray collection, and a new model for plasmid evolution</div>
+				We studied a historical collection of bacterial isolates, and looked at how the plasmids within them evolved over the period when humans adopted antibiotics. A small proportion of plasmids took up antibiotic resistance genes, but the most interesting revelation was that plasmids seem to undergo a continual process of fusion and fragmentation, mediated by recombination, which continually generates diversity. 
+			</li>
 		</ul>
 	</Experience>
 

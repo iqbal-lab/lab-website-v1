@@ -6,7 +6,7 @@ const members = [
 		name: "Zamin Iqbal",
 		photo: "/assets/temp-zam.png",
 		description:
-			"Professor of Algorithmic and Microbial Genomics, Milner Centre for Evolution, University of Bath. Zam did a degree and PhD in Maths, and then worked for several years in start-up/software firms before moving into biology, and back into academia. He did his postdoctoral work with Gil McVean at Oxford, was lucky enough to win a Wellcome/Royal Society Sir Henry Dale Fellowship, and spent several years as a PI at EMBL-EBI."
+			"Zam is Professor of Algorithmic and Microbial Genomics at the University of Bath. He did a degree and PhD in Maths, and then worked for several years in start-up/software firms before moving into biology (and academia) to work on the 1000 Genomes Project. He did his postdoctoral work with Gil McVean at Oxford, was lucky enough to win a Wellcome/Royal Society Sir Henry Dale Fellowship, and spent several years as a PI at EMBL-EBI."
 	},
 	{
 		name: "Trieu Le",
