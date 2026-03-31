@@ -4,25 +4,25 @@ import SectionHeader from "$components/SectionHeader.svelte";
 const members = [
 	{
 		name: "Zamin Iqbal",
-		photo: "/assets/temp-zam.png",
+		photo: "/assets/zam.jpeg",
 		description:
 			"Zam is Professor of Algorithmic and Microbial Genomics at the University of Bath. He did a degree and PhD in Maths, and then worked for several years in start-up/software firms before moving into biology (and academia) to work on the 1000 Genomes Project. He did his postdoctoral work with Gil McVean at Oxford, was lucky enough to win a Wellcome/Royal Society Sir Henry Dale Fellowship, and spent several years as a PI at EMBL-EBI."
 	},
 	{
 		name: "Trieu Le",
-		photo: "/assets/temp-zam.png",
+		photo: "/assets/trieu.jpg",
 		description:
 			"Trieu studied X, before doing a Masters in Y at the Wellcome Sanger Institute. Right now he is doing a PhD on integron and plasmid evolution."
 	},
 	{
 		name: "Alexandria Harrott",
-		photo: "/assets/temp-zam.png",
+		photo: "/assets/alex.jpg",
 		description:
 			"Alex has previously worked on nanopore sequencing for P. falciparum, but now for her PhD works on plasmid evolution."
 	},
 	{
 		name: "Loic Marmey",
-		photo: "/assets/temp-zam.png",
+		photo: "/assets/loic.jpg",
 		description: "Loic works on new methods of genome assembly."
 	}
 ];
