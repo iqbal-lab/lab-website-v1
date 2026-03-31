@@ -11,19 +11,19 @@ import { ListGroup } from "@sveltestrap/sveltestrap";
 		<ul class="timeline">
 			<li>
 				<div class="fw-bold">
-					Bacterial pangenomes <span class="fw-normal text-muted small">(2013 &mdash;)</span>
+					Bacterial pangenomes
 				</div>
 				Represent bacterial pangenome as a set of gene graphs (DAGs of minimizers) to allow gene detection and SNP calling in the whole pangenome, using Pandora, developed by Michael Hall, Leandro Lima and Rachel Colquhoun.
 			</li>
 			<li>
 				<div class="fw-bold">
-					Single and multicopy AMR gene detection from long reads<span class="fw-normal text-muted small">(2021-)</span>
+					Single and multicopy AMR gene detection from long reads
 				</div>
 				Using gene de Bruijn graphs with a tool called Amira, developed by Dan Anderson
 			</li>
 			<li>
 				<div class="fw-bold">
-					Modelling a eukaryote pangenome as an ordered array of DAGs, encoded in a variant BWT<span class="fw-normal text-muted small">(2021)</span>
+					Modelling a eukaryote pangenome as an ordered array of DAGs, encoded in a variant BWT
 				</div>
 				In our tool called gramtools, developed by Brice Letcher and Sorina Maciuca, we generalise the standard BWT to encode a genome plus variants, allowing mapping of reads to the pangenome. For the experts, a lot of interesting ideas in how to record support for individual SNPs buried in complex regions, and a new hierarchical JSON VCF format.
 			</li>
@@ -78,25 +78,25 @@ import { ListGroup } from "@sveltestrap/sveltestrap";
 		<ul class="timeline">
 			<li>
 				<div class="fw-bold">
-					Resistance prediction using coloured de Bruijn graphs <span class="fw-normal text-muted small">(2015-)</span>
+					Resistance prediction using coloured de Bruijn graphs
 				</div>
 				Software called Mykrobe, developed by Martin Hunt and Phelim Bradley, works for Illumina and Nanopore data, for Mycobacterium tuberculosis, Staphylococcus aureus, Shigella sonnei, Salmonella typhi and Salmonella enterica serotype Paratyphi B.
 			</li>
 			<li>
 				<div class="fw-bold">
-					Improved resistance prediction for TB<span class="fw-normal text-muted small">(2021)</span>
+					Improved resistance prediction for TB
 				</div>
 				DrPRG was designed as an improved version of Mykrobe by Michael Hall, based on Pandora's minimizer DAGs instead of Mykrobe's coloured de Bruijn graph. DrPRG only supports Mtb for the moment though.
 			</li>
 			<li>
 				<div class="fw-bold">
-					Genetic basis for resistance in TB <span class="fw-normal text-muted small">(2013 &mdash;)</span>
+					Genetic basis for resistance in TB
 				</div>
 				We spent 5 years, as part of the CRyPTIC project, collecting, sequencing and phenotyping over 12,000 clinical isolates of M. tuberculosis from around the world and publishing them as an open dataset. We focussed on how to best identify and jointly genotype genetic variants in the cohort, and enable our collaborators doing GWAS and ML on the data. This fed directly into the first version of the WHO Catalogue of TB resistance mutations.
 			</li>
 			<li>
 				<div class="fw-bold">
-					Single and multicopy AMR gene detection from long reads<span class="fw-normal text-muted small">(2021-)</span>
+					Single and multicopy AMR gene detection from long reads
 				</div>
 				Using gene de Bruijn graphs with a tool called Amira, developed by Dan Anderson
 			</li>
@@ -121,7 +121,7 @@ import { ListGroup } from "@sveltestrap/sveltestrap";
 		<ul class="timeline">
 			<li>
 				<div class="fw-bold">
-					Genotypes and phenotypes for 12k isolates <span class="fw-normal text-muted small">(2015-)</span>
+					Genotypes and phenotypes for 12k isolates
 				</div>
 				This dataset contains high quality SNP and indel calls for >12,000 samples, and MICs for 12 different drugs. See the Compendium paper in PLoS Biology (PMID: 35944069) for details.
 			</li>
@@ -135,7 +135,7 @@ import { ListGroup } from "@sveltestrap/sveltestrap";
 
 			<li>
 				<div class="fw-bold">
-					Fixing pandemic-wide systematic errors in SARS-CoV-2 genomes <span class="fw-normal text-muted small">(2021)</span>
+					Fixing pandemic-wide systematic errors in SARS-CoV-2 genomes
 				</div>
 				Two factors combined to create systematic errors in the world's SARS-CoV-2 genomes: the data came from a heterogeneous set of assembly pipelines, some of which were not designed for tiled amplicon data, and as the virus evolved and inevitably mutations arose in primer binding sites, the PCR scheme had to be updated. Thus waves of Variants of Concern were followed by waves of artefacts in the genomes. We developed a rigorous tiled-amplicon assembler, Viridian, and reprocessed all public SARS-CoV-2 data, built a new, more reliable phylogeny, and made all the data public. While doing this, we also recruited collaborators from the Global South to join us, and make the public corpus of genomes slightly more globally representative.
 			</li>
@@ -147,7 +147,7 @@ import { ListGroup } from "@sveltestrap/sveltestrap";
 		<ul class="timeline">
 			<li>
 				<div class="fw-bold">
-					AllTheBacteria <span class="fw-normal text-muted small">(2013 &mdash;)</span>
+					AllTheBacteria
 				</div>
 				We are co-leading (with John Lees) a community project to rigorously and uniformly assemble, annotate and make searchable, all the world's bacterial genomic data
 			</li>
