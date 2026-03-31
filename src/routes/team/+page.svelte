@@ -9,6 +9,12 @@ const members = [
 			"Zam is Professor of Algorithmic and Microbial Genomics at the University of Bath. He did a degree and PhD in Maths, and then worked for several years in start-up/software firms before moving into biology (and academia) to work on the 1000 Genomes Project. He did his postdoctoral work with Gil McVean at Oxford, was lucky enough to win a Wellcome/Royal Society Sir Henry Dale Fellowship, and spent several years as a PI at EMBL-EBI."
 	},
 	{
+		name: "Martin Hunt",
+		photo: "/assets/martin.jpg",
+		description:
+			"Martin is a veteran bioinformatician, having worked on bacterial assembly, variant calling and AMR analysis. He was senior bioinformatician in the group for many years when it was based in EBI, and now works as an external member, formally at the Wellcome Sanger Institute. "
+	},
+	{
 		name: "Trieu Le",
 		photo: "/assets/trieu.jpg",
 		description:
