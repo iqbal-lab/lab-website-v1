@@ -117,7 +117,7 @@ import { ListGroup } from "@sveltestrap/sveltestrap";
 <SectionHeader title="Open datasets for the community" />
 
 <ListGroup flush>
-	<Experience company="CRyPTIC dataset for TB" url="">
+	<Experience company="Tuberculosis" url="">
 		<ul class="timeline">
 			<li>
 				<div class="fw-bold">
@@ -125,12 +125,26 @@ import { ListGroup } from "@sveltestrap/sveltestrap";
 				</div>
 				This dataset contains high quality SNP and indel calls for >12,000 samples, and MICs for 12 different drugs. See the Compendium paper in PLoS Biology (PMID: 35944069) for details.
 			</li>
+					</ul>
+	</Experience>
+
+	<Experience company="SARS-CoV-2" url="">
+		<ul class="timeline">
+
+
+
 			<li>
 				<div class="fw-bold">
 					Fixing pandemic-wide systematic errors in SARS-CoV-2 genomes <span class="fw-normal text-muted small">(2021)</span>
 				</div>
 				Two factors combined to create systematic errors in the world's SARS-CoV-2 genomes: the data came from a heterogeneous set of assembly pipelines, some of which were not designed for tiled amplicon data, and as the virus evolved and inevitably mutations arose in primer binding sites, the PCR scheme had to be updated. Thus waves of Variants of Concern were followed by waves of artefacts in the genomes. We developed a rigorous tiled-amplicon assembler, Viridian, and reprocessed all public SARS-CoV-2 data, built a new, more reliable phylogeny, and made all the data public. While doing this, we also recruited collaborators from the Global South to join us, and make the public corpus of genomes slightly more globally representative.
 			</li>
+					</ul>
+	</Experience>
+
+
+	<Experience company="All Prokaryotes!" url="">
+		<ul class="timeline">
 			<li>
 				<div class="fw-bold">
 					AllTheBacteria <span class="fw-normal text-muted small">(2013 &mdash;)</span>
