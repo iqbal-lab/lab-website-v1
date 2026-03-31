@@ -29,8 +29,8 @@ import { meta_description, meta_image, meta_title, meta_url } from "$lib/config"
 		<img height="60" src="/assets/headshot.jpg" alt="That's me :)" />
 	</div>
 	<div>
-		Bioinformatics Scientist at <a href="https://google.com" target="_blank">ABC Bio</a>
-		<p class="small text-muted mb-0">A short summary of what you specialize in.</p>
+		The Iqbal Lab at the <a href="https://google.com" target="_blank">Milner Centre for Evolution, Bath</a>
+		<p class="small text-muted mb-0">Developing algorithms to study genome evolution, and applying them to microbes.</p>
 	</div>
 </div>
 
@@ -39,19 +39,19 @@ import { meta_description, meta_image, meta_title, meta_url } from "$lib/config"
 <Row cols={{ xl: 3, lg: 3, md: 2, sm: 1, xs: 1 }}>
 	<!-- Photo by <a href="https://unsplash.com/@xteemu">Teemu Paananen</a> on <a href="https://unsplash.com/photos/pic-bzdhc5b3Bxs">Unsplash</a> -->
 	<ProjectCard
-		name="📝 Installing XYZ on Apple M1"
-		date="April 2025"
+		name="📝 AllTheBacteria data now available on AWS"
+		date="May 2025"
 		url="/articles/install-xyz"
 		img="/assets/talk.jpg"
-		description="How to install the XYZ tool on the M1 chips and avoid the error..."
+		description="Now you can align your favourite gene to 2 million bacteria on AWS..."
 	/>
 
 	<!-- Photo by <a href="https://unsplash.com/@chuttersnap">CHUTTERSNAP</a> on <a href="https://unsplash.com/photos/pic-UmncJq4KPcA">Unsplash</a> -->
 	<ProjectCard
-		name="🗞️ Our XYZ paper is published"
-		date="December 2024"
+		name="🗞️ Our paper on Phylogenetic Compression is published"
+		date="April 2025"
 		url="https://google.com"
 		img="/assets/plants.jpg"
-		description="We assembled the Rainbow eucalyptus genome and identified a novel..."
+		description="Genomes are not random strings; using evolution to improve data compression."
 	/>
 </Row>
