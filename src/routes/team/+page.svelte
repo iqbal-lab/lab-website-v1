@@ -119,7 +119,7 @@ const alumni = [
 
 <SectionHeader title="Alumni" />
 
-<img src="/assets/iqbal_lab_4-3.png" alt="Iqbal Lab group back when it was at EBI" class="img-fluid mb-4" />
+<img src="/assets/iqbal_lab_4-3.png" alt="Iqbal Lab group back when it was at EBI" class="mb-4" style="width: 25%;" />
 
 <div class="team-list">
 	{#each alumni as member}
