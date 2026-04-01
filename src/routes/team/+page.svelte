@@ -38,13 +38,37 @@ const alumni = [
 		name: "Daria Frolova (2021–2025)",
 		photo: "/assets/daria.png",
 		description:
-			"Daria did a PhD working on methods for studying plasmid evolution, and has moved on to a postdoc in Switzerland."
+			"Daria worked on methods for studying plasmid evolution, and has moved on to a postdoc in Switzerland."
 	},
 	{
 		name: "Daniel Anderson (2021–2025)",
 		photo: "/assets/dan.jpg",
 		description:
-			"Dan did a PhD developing new algorithms for AMR gene assembly from long reads using large alphabet de Bruijn graphs. He has moved on to work in a bioinformatics start-up."
+			"Dan developed new algorithms for AMR gene assembly from long reads using large alphabet de Bruijn graphs. He has moved on to work in a bioinformatics start-up."
+	},
+	{
+		name: "Adrian Cazares (2020–2023)",
+		photo: "/assets/adrian.jpg",
+		description:
+			"Adrian had a joint postdoctoral position in this lab, and that of Nick Thomson at the Wellcome Sanger Institute. He analysed the evolution of the plasmids in the Murray Collection, a set of ~350 bacterial isolates collected between 1917 and 1953, over the subsequent 100 years. He subsequently moved to a Staff Scientist position at the Sanger."
+	},
+	{
+		name: "Leandro Lima (2019–2023)",
+		photo: "/assets/leandro.jpg",
+		description:
+			"Leandro was senior software developer in the lab, during which time he was absolutely pivotal in the development and optimisation of our code, and the training of the group. He moved on to a position in the Chan Zuckerberg Biohub."
+	},
+	{
+		name: "Leah Roberts (2018–2023)",
+		photo: "/assets/leah.jpg",
+		description:
+			"Leah had a joint EBI/Cambridge postdoctoral position, working on AMR spread in Vietnam, TB and developing new methods for studying plasmids. She moved to take up a lecturer position in Brisbane."
+	},
+	{
+		name: "Kerri Malone (2017–2022)",
+		photo: "/assets/kerri.jpg",
+		description:
+			"Kerri worked, as a postdoctoral researcher, on the CRyPTIC project, co-leading the writing of the main data paper, while also studying the evolution of growth rate in M. tuberculosis. She moved on to a postdoc position at Oxford."
 	},
 	{
 		name: "Brice Letcher (2018–2022)",
