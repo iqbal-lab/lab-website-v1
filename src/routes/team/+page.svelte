@@ -38,13 +38,13 @@ const alumni = [
 		name: "Daria Frolova (2021–2025)",
 		photo: "/assets/daria.png",
 		description:
-			"Daria worked on methods for studying plasmid evolution, and has moved on to a postdoc in Switzerland."
+			"Daria did a PhD on methods for studying plasmid evolution, and has moved on to a postdoc in Switzerland."
 	},
 	{
 		name: "Daniel Anderson (2021–2025)",
 		photo: "/assets/dan.jpg",
 		description:
-			"Dan developed new algorithms for AMR gene assembly from long reads using large alphabet de Bruijn graphs. He has moved on to work in a bioinformatics start-up."
+			"Dan did a PhD on new algorithms for AMR gene assembly from long reads using large alphabet de Bruijn graphs. He has moved on to work in a bioinformatics start-up."
 	},
 	{
 		name: "Adrian Cazares (2020–2023)",
