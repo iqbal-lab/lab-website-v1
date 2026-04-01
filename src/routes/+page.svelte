@@ -27,12 +27,11 @@ import { meta_description, meta_image, meta_title, meta_url } from "$lib/config"
 <div class="bg-light p-4 rounded-3 border border-2 border-primary-subtle">
 	<div class="d-flex align-items-center mb-3">
 		<img height="60" class="me-3" src="/assets/headshot.jpg" alt="That's me :)" />
-		<span class="fs-5">The Iqbal Lab at the Milner Centre for Evolution, Bath</span>
+		<span class="fs-5">Welcome to the website of the Iqbal Lab at the Milner Centre for Evolution, Bath!</span>
 	</div>
-	<p class="mb-0">We work on two fronts: half of us study the evolution of bacteria and antibiotic resistance, and half develop new algorithms and
-computational data structures for comparing and searching through genomes. We love data, algorithms and bacteria and the group all come to this
-from different backgrounds and meet in the middle - we have had microbiologists, mathematicians, computer scientists and physicists in the team,
-along with people from many nations, and benefitted from our diversity. We are also proponents of open data, and work collaboratively to build high quality datasets
+	<p class="mb-0">We are a computational research group working on two fronts: half of us study the evolution of bacteria and antibiotic resistance, and half develop new algorithms and
+computational data structures for comparing and searching through genomes. We love data, algorithms and bacteria! We all come to this
+from different backgrounds and meet in the middle - we have had microbiologists, mathematicians, computer scientists and physicists in the team, and benefitted from our diversity. We are also proponents of open data, and work collaboratively to build high quality datasets
 for the benefit of the community.</p>
 </div>
 
