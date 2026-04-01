@@ -6,7 +6,7 @@ const members = [
 		name: "Zamin Iqbal",
 		photo: "/assets/zam.jpeg",
 		description:
-			"Zam is Professor of Algorithmic and Microbial Genomics at the University of Bath. He did a degree and PhD in Maths, and then worked for several years in start-up/software firms before moving into biology (and academia) to work on the 1000 Genomes Project. He did his postdoctoral work with Gil McVean at Oxford, and then spent several years as a PI at EMBL-EBI. He moved to Bath in 2024. He is sometimes to be seen on social media (Bluesky) with a cartoon avatar holding a macchiato."
+			"Zam is Professor of Algorithmic and Microbial Genomics at the University of Bath. His research broadly encompasses bioinformatic algorithms for studing the evolution and epidemiology of bacteria, though often the methods become intrinsicly interesting. He originally did a degree and PhD in Maths, and then worked for several years in start-up/software firms before moving into biology (and academia) to work on the 1000 Genomes Project. He did his postdoctoral work with Gil McVean at Oxford, spent several years as a PI at EMBL-EBI, and moved to Bath in 2024. He is sometimes to be seen on social media (Bluesky) with a cartoon avatar holding a macchiato."
 	},
 	{
 		name: "Martin Hunt",
