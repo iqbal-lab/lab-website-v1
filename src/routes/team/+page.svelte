@@ -6,7 +6,7 @@ const members = [
 		name: "Zamin Iqbal",
 		photo: "/assets/zam.jpeg",
 		description:
-			"Zam is Professor of Algorithmic and Microbial Genomics at the University of Bath. He did a degree and PhD in Maths, and then worked for several years in start-up/software firms before moving into biology (and academia) to work on the 1000 Genomes Project. He did his postdoctoral work with Gil McVean at Oxford, was lucky enough to win a Wellcome/Royal Society Sir Henry Dale Fellowship, and spent several years as a PI at EMBL-EBI."
+			"Zam is Professor of Algorithmic and Microbial Genomics at the University of Bath. He did a degree and PhD in Maths, and then worked for several years in start-up/software firms before moving into biology (and academia) to work on the 1000 Genomes Project. He did his postdoctoral work with Gil McVean at Oxford, and then spent several years as a PI at EMBL-EBI. He moved to Bath in 2024. He is sometimes to be seen on social media (Bluesky) with a cartoon avatar holding a macchiato."
 	},
 	{
 		name: "Martin Hunt",
@@ -18,13 +18,13 @@ const members = [
 		name: "Trieu Le",
 		photo: "/assets/trieu.jpg",
 		description:
-			"Trieu studied X, before doing a Masters in Y at the Wellcome Sanger Institute. Right now he is doing a PhD on integron and plasmid evolution."
+			"Trieu worked at the Oxford University Clinical Research Unit in Vietnam, before doing an MPhil in Genomics at the University of Cambridge. Right now he is doing a PhD on integron and plasmid evolution."
 	},
 	{
 		name: "Alexandria Harrott",
 		photo: "/assets/alex.jpg",
 		description:
-			"Alex worked on nanopore sequencing for P. falciparum prior to joining the group. The first year of her PhD she worked on recombination in S. pneumoniae, and now has moved over to studying plasmid evolution."
+			"Alex worked on nanopore sequencing for P. falciparum prior to joining the group. During the first year of her PhD she worked on recombination in S. pneumoniae, and now has moved over to studying plasmid evolution."
 	},
 	{
 		name: "Loic Marmey",
