@@ -26,7 +26,7 @@ import { meta_description, meta_image, meta_title, meta_url } from "$lib/config"
 
 <div class="bg-light p-4 rounded-3 border border-2 border-primary-subtle">
 	<div class="d-flex align-items-center mb-3">
-		<img height="60" class="me-3" src="/assets/temp-zam.png" alt="That's me :)" />
+		<img height="60" class="me-3" src="/assets/zam2.png" alt="That's me :)" />
 		<span class="fs-5">Welcome to the website of the Iqbal Lab at the Milner Centre for Evolution, Bath!</span>
 	</div>
 	<p class="mb-0">We are a computational research group working on two fronts: half of us study the evolution of bacteria and antibiotic resistance, and half develop new algorithms and
