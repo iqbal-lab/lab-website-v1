@@ -32,12 +32,71 @@ const members = [
 		description: "Loic works on methods you would not expect for genome assembly; watch this space for some surprises."
 	}
 ];
+
+const alumni = [
+	{
+		name: "Daria Frolova (2021–2025)",
+		photo: "/assets/daria.png",
+		description:
+			"Daria worked on methods for studying plasmid evolution, and has moved on to a postdoc in Switzerland."
+	},
+	{
+		name: "Daniel Anderson (2021–2025)",
+		photo: "/assets/dan.jpg",
+		description:
+			"Dan developed new algorithms for AMR gene assembly from long reads using large alphabet de Bruijn graphs. He has moved on to work in a bioinformatics start-up."
+	},
+	{
+		name: "Brice Letcher (2018–2022)",
+		photo: "/assets/brice.jpeg",
+		description:
+			"Brice developed a new pangenome data structure, in the tool gramtools, and used it to study evolution of Plasmodium falciparum, the parasite responsible for malaria. He has moved on to do a postdoc, changing field to epigenetics, in France."
+	},
+	{
+		name: "Michael Hall (2017–2021)",
+		photo: "/assets/michael.jpeg",
+		description:
+			"Michael co-developed Pandora, a pangenome tool for studying bacteria, and then used it to build a new state-of-the-art tool for predicting antibiotic resistance in M. tuberculosis. He moved on to a postdoc in Australia."
+	},
+	{
+		name: "Rachel Colquhoun (2015–2019)",
+		photo: "/assets/rachel.jpeg",
+		description:
+			"Rachel developed a new approach for encoding a pangenome, and used it to develop an approach for studying bacterial genomes. She moved on to a postdoc in Edinburgh."
+	},
+	{
+		name: "Sorina Maciuca (2014–2018)",
+		photo: "/assets/sorina.jpeg",
+		description:
+			"Sorina developed a modified Burrows Wheeler Transform for encoding genetic variation, and showed it could be used to study challenging genetic variation in P. falciparum. She moved into bioinformatics in industry."
+	},
+	{
+		name: "Phelim Bradley (2014–2018)",
+		photo: "/assets/phelim.png",
+		description:
+			"Phelim used coloured de Bruijn graphs as the basis for a drug resistance predictor (Mykrobe), and applied it particularly to TB. He also developed the first kmer index able to encode large scale bacterial data. Phelim moved on to start his own company."
+	}
+];
 </script>
 
 <SectionHeader title="Team" />
 
 <div class="team-list">
 	{#each members as member}
+		<div class="team-member">
+			<img src={member.photo} alt="Photo of {member.name}" class="team-photo" />
+			<div class="team-bio">
+				<div class="fw-bold fs-5">{member.name}</div>
+				<p class="mt-1">{member.description}</p>
+			</div>
+		</div>
+	{/each}
+</div>
+
+<SectionHeader title="Alumni" />
+
+<div class="team-list">
+	{#each alumni as member}
 		<div class="team-member">
 			<img src={member.photo} alt="Photo of {member.name}" class="team-photo" />
 			<div class="team-bio">
