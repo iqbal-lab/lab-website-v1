@@ -24,14 +24,16 @@ import { meta_description, meta_image, meta_title, meta_url } from "$lib/config"
 	{/if}
 </svelte:head>
 
-<div class="d-flex bg-light p-4 fs-5 rounded-3 border border-2 border-primary-subtle">
-	<div class="align-middle pe-3">
-		<img height="60" src="/assets/headshot.jpg" alt="That's me :)" />
+<div class="bg-light p-4 rounded-3 border border-2 border-primary-subtle">
+	<div class="d-flex align-items-center mb-3">
+		<img height="60" class="me-3" src="/assets/headshot.jpg" alt="That's me :)" />
+		<span class="fs-5">The Iqbal Lab at the Milner Centre for Evolution, Bath</span>
 	</div>
-	<div>
-		The Iqbal Lab at the <a href="https://www.bath.ac.uk/research-centres/milner-centre-for-evolution/" target="_blank">Milner Centre for Evolution, Bath</a>
-		<p class="small text-muted mb-0">Developing algorithms to study genome evolution, and applying them to microbes.</p>
-	</div>
+	<p class="mb-0">We work on two fronts: half of us study the evolution of bacteria and antibiotic resistance, and half develop new algorithms and
+computational data structures for comparing and searching through genomes. We love data, algorithms and bacteria and the group all come to this
+from different backgrounds and meet in the middle - we have had microbiologists, mathematicians, computer scientists and physicists in the team,
+along with people from many nations, and benefitted from our diversity. We are also proponents of open data, and work collaboratively to build high quality datasets
+for the benefit of the community.</p>
 </div>
 
 <SectionHeader title="What's New" />
