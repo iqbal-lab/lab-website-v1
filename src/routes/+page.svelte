@@ -29,7 +29,7 @@ import { meta_description, meta_image, meta_title, meta_url } from "$lib/config"
 		<img height="60" src="/assets/headshot.jpg" alt="That's me :)" />
 	</div>
 	<div>
-		The Iqbal Lab at the <a href="https://google.com" target="_blank">Milner Centre for Evolution, Bath</a>
+		The Iqbal Lab at the <a href="https://www.bath.ac.uk/research-centres/milner-centre-for-evolution/" target="_blank">Milner Centre for Evolution, Bath</a>
 		<p class="small text-muted mb-0">Developing algorithms to study genome evolution, and applying them to microbes.</p>
 	</div>
 </div>
