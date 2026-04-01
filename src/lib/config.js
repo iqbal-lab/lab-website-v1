@@ -9,7 +9,7 @@ export const meta_image = "https://portfolio-template.omgenomics.com/assets/temp
 
 // The first navbar category links to the home page while the others link to their routes
 // e.g. "resume" goes to "src/routes/resume/+page.svelte"
-export const NAVBAR_CATEGORIES = ["team", "research", "software"];
+export const NAVBAR_CATEGORIES = ["team", "research", "software", "publications"];
 
 // Social media links
 export const SOCIAL_MEDIA = [
