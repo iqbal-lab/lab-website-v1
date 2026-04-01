@@ -9,7 +9,7 @@ import { ListGroup, ListGroupItem } from "@sveltestrap/sveltestrap";
 
 	<ListGroupItem class="px-0 py-3">
 		<div class="fw-bold fs-5">Pling</div>
-		<p>Tool for measuring genetic distance between plasmids in two ways (proportion of non-shared sequence, and number of structural/rearrangements between them (DCJ-indel distance)), and then using community detection algorithms on the resulting relatedness network. Allows one to explore relatedness of plasmids in a way that respects the biological mechanisms through which they vary.</p>
+		<p>Tool that uses rearrangement distances to build a relatedness network of plasmid genomes. Allows one to explore relatedness of plasmids in a way that respects the biological mechanisms through which they vary.</p>
 		<p><strong>Code:</strong> <a href="https://github.com/iqbal-lab-org/pling" target="_blank">https://github.com/iqbal-lab-org/pling</a></p>
 		<p><strong>Main Paper:</strong> <a href="https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.001300" target="_blank">https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.001300</a></p>
 		<p class="mb-0"><strong>Protocols for how to use it:</strong> <a href="https://www.biorxiv.org/content/10.1101/2025.09.02.673752v1" target="_blank">https://www.biorxiv.org/content/10.1101/2025.09.02.673752v1</a></p>
