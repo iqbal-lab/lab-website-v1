@@ -15,6 +15,7 @@ export const NAVBAR_CATEGORIES = ["team", "research", "software"];
 export const SOCIAL_MEDIA = [
 	{ platform: "email", url: "mailto:zi245@bath.ac.uk" },
 	{ platform: "github", url: "https://github.com/iqbal-lab-org" },
-	{ platform: "linkedin", url: "https://www.linkedin.com/in/zam-iqbal-059639/" },
+	{ platform: "github2", url: "https://github.com/AllTheBacteria" },
+
 	{ platform: "bsky", url: "https://bsky.app/profile/zaminiqbal.bsky.social" }
 ];
