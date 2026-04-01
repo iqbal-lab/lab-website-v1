@@ -16,7 +16,7 @@ const members = [
 	},
 	{
 		name: "Trieu Le",
-		photo: "/assets/trieu.jpg",
+		photo: "/assets/trieu-better.png",
 		description:
 			"Trieu worked at the Oxford University Clinical Research Unit in Vietnam, before doing an MPhil in Genomics at the University of Cambridge. Right now he is doing a PhD on integron and plasmid evolution."
 	},
